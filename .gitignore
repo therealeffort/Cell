@@ -26,6 +26,7 @@ debug/
 *.so
 *.dylib
 *.dll
+!assimp-vc140-mt.dll
 
 # Fortran module files
 *.mod
@@ -38,6 +39,11 @@ debug/
 *.lib
 !glfw3.lib
 !glew32s.lib
+!assimp.lib
+!zlib.lib
+!zlibd.lib
+!zlibstatic.lib
+!zlibstaticd.lib
 
 # Executables
 *.exe
