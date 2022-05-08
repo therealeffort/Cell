@@ -41,6 +41,7 @@ namespace Cell
     Shader* Resources::LoadShader(std::string name, std::string vsPath, std::string fsPath, std::vector<std::string> defines)
     {
         unsigned int id = SID(name);
+        Log::Message("Resources::LoadShader: " + vsPath + ", " + fsPath + "...", LOG_INIT);
 
         // if shader already exists, return that handle
         if(Resources::m_Shaders.find(id) != Resources::m_Shaders.end())

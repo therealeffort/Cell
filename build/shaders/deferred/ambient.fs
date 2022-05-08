@@ -16,7 +16,7 @@ uniform sampler2D gPositionMetallic;
 uniform sampler2D gNormalRoughness;
 uniform sampler2D gAlbedoAO;
 
-uniform int SSAO;
+uniform bool SSAO;
 uniform sampler2D TexSSAO;
 
 void main()

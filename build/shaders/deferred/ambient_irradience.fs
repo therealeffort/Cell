@@ -22,7 +22,7 @@ uniform sampler2D   TexSSAO;
 uniform vec3 probePos;
 uniform float probeRadius;
 
-uniform int SSAO;
+uniform bool SSAO;
 uniform int SSR;
 
 void main()
